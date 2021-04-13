@@ -58,16 +58,32 @@
 		C7680551261F67E000D3D7DD /* weatheApp */ = {
 			isa = PBXGroup;
 			children = (
+				C768056C2622E8C000D3D7DD /* Controller */,
+				C768056B2622E8A500D3D7DD /* VIew */,
 				C7680552261F67E000D3D7DD /* AppDelegate.swift */,
 				C7680554261F67E000D3D7DD /* SceneDelegate.swift */,
-				C7680556261F67E000D3D7DD /* ViewController.swift */,
-				C7680558261F67E000D3D7DD /* Main.storyboard */,
 				C768055E261F67E200D3D7DD /* Assets.xcassets */,
 				C7680560261F67E200D3D7DD /* LaunchScreen.storyboard */,
 				C7680563261F67E200D3D7DD /* Info.plist */,
 				C768055B261F67E000D3D7DD /* weatheApp.xcdatamodeld */,
 			);
 			path = weatheApp;
+			sourceTree = "<group>";
+		};
+		C768056B2622E8A500D3D7DD /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				C7680558261F67E000D3D7DD /* Main.storyboard */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		C768056C2622E8C000D3D7DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7680556261F67E000D3D7DD /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +312,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = li.weatheApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -314,6 +331,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = li.weatheApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
